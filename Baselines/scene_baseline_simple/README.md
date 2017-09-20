@@ -24,7 +24,7 @@ Run the test script.
 ```
 python scene.py --mode test --test_dir TEST_IMAGE_PATH
 ```
-Test result will be writed into JSON file named "submit.json", which contains image_id, top3 label_id as a list.
+Test result will be written into JSON file named "submit.json", which contains image_id, top3 label_id as a list.
 # Calculate Accuracy
 Run the evaluation script. (This script is the lastest and robust version. In order to be compatible with label_id in string type, we always convert label_id to integer in reference data.)
 ```
